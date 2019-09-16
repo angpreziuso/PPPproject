@@ -24,7 +24,6 @@ h3 {
     color: white;
     float: left;
     padding: 2em;
-    background-image: cross-fade();
 }
 
 a {
@@ -89,7 +88,7 @@ img {
 
 .dog {
     float: left;
-    margin: 1;
+    margin: 1px;
     background-color: black;
     color: #fff;
     width: 20%;
@@ -97,7 +96,7 @@ img {
 
 .dance {
     float: left;
-    margin: 1;
+    margin: 1px;
     background-color: pink;
     width: 20%;
 }
