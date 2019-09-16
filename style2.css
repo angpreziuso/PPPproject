@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Allura';
+    src: url("https://fonts.googleapis.com/css?family=Allura&display=swap");
+}
+
+body {
+    background: black;
+    background-image: linear-gradient(black 30%, grey 60%);
+}
+
+h1 {
+    color: red;
+    font-family: "Allura";
+    font-size: 3em;
+    padding-top: 3px;
+}
+
+h2,
+img {
+    color: white;
+}
+
+h3 {
+    color: white;
+    float: left;
+    padding: 2em;
+    background-image: cross-fade();
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+a:active {
+    color: green;
+}
+
+p {
+    color: white;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    clear: none;
+}
+
+ul {
+    padding-top: 0em;
+    font-size: 14pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+}
+
+table {
+    color: white;
+    text-align: center;
+    border-style: dotted;
+    border-color: chartreuse;
+    border-width: .1em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px antiquewhite;
+    border-spacing: 1em;
+    background-image: url('https://balletforadults.com/wp-content/uploads/2015/03/balletshoespile.jpg');
+    background-clip: content-box;
+}
+
+img {
+    border: 1px solid white;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.work {
+    border: 1px solid black;
+    clear: left;
+}
+
+.dog {
+    float: left;
+    margin: 1;
+    background-color: black;
+    color: #fff;
+    width: 20%;
+}
+
+.dance {
+    float: left;
+    margin: 1;
+    background-color: pink;
+    width: 20%;
+}
+
+p {
+    width: 50%;
+}

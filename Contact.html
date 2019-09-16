@@ -3,31 +3,34 @@
 
 <head>
     <title>Contact Angela Preziuso</title>
-    <a href="ppp.html" </a>Home</a> &nbsp; &nbsp;<a href="About.html" </a>About</a> &nbsp;&nbsp; <a href="Pictures.html" </a>Pictures</a>
+    <a class="home" href="ppp.html" </a>Home</a> &nbsp; &nbsp;<a class="about" href="About.html" </a>About</a> &nbsp;&nbsp; <a class="pics" href="Pictures.html" </a>Pictures</a>
+    <link href="style3.css" type="text/css" rel="stylesheet">
     </li>
 </head>
 
 <body>
 
     <h1>If you need to contact me</h1>
-    <ul>
-        <li>Phone: <a href="tel:+3023798629">(302) 379-8629</a></li>
-        <li>Email: <a href="mailto: angelapreziuso23@gmail.com">angelapreziuso23@gmail.com</a></li>
-    </ul>
+    <div>
+        <ul>
+            <li>Phone: <a href="tel:+3023798629">(302) 379-8629</a></li>
+            <li>Email: <a href="mailto: angelapreziuso23@gmail.com">angelapreziuso23@gmail.com</a></li>
+        </ul>
+    </div>
 
 
     <div id="Contact">
         <form id="contact">
-            <label for="name">Your name:</label><br />
+            <label class="name" for="name">Your name:</label><br />
             <input id="name" name="name" type="text" value="" size="30" /><br />
 
-            <label for="email">Your email:</label><br />
+            <label class="email" for="email">Your email:</label><br />
             <input id="email" name="email" type="text" value="" size="30" /><br />
 
-            <label for="message">Your message:</label><br />
+            <label class="message" for="message">Your message:</label><br />
             <textarea id="message" name="message" rows=3 cols=28></textarea><br />
     </div>
-    <input id="submit" type="submit" value="Send" />
+    <input class="sendbutton" for="sendbutton" id="submit" type="submit" value="Send" />
     </form>
     </div>
 

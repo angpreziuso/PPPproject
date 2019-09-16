@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Chilanka';
+    src: url("https://fonts.googleapis.com/css?family=Chilanka&display=swap");
+}
+
+body {
+    background: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: red;
+    font-family: "Chilanka";
+    font-size: 3em;
+    padding-top: 3px;
+    padding-left: .5em;
+    padding-bottom: 0%;
+}
+
+h2 {
+    display: none;
+    color: aliceblue;
+}
+
+h3 {
+    padding-top: 0%;
+    line-height: 0%;
+    color: aliceblue;
+}
+
+a {
+    color: grey;
+    font-family: "Chilanka";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+a:active {
+    color: green;
+}
+
+p {
+    color: antiquewhite;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 10px;
+    display: inline-block
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::shadow {
+    color: azure;
+}
+
+ul {
+    padding-top: 0em;
+    font-size: 14pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    display: block;
+}
+
+li::before {
+    color: red;
+    content: '-';
+}
+
+a.website::before {
+    content: url("https://www.angelapreziuso.com") " Angela Preziuso ";
+    font: x-small Chilanka, sans-serif;
+    color: maroon;
+}

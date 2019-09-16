@@ -1,0 +1,61 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+input:hover {
+    color: green;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: unset;
+}
+
+label {
+    color: white;
+}
+
+.name,
+.email,
+.message {
+    color: aqua;
+}
+
+#name,
+#email,
+#message {
+    color: blue;
+}
+
+div {
+    color: aquamarine;
+}
+
+.submit {
+    color: blue;
+    background-color: aqua;
+}
+
+a.home {
+    color: aquamarine;
+}
+
+a.about {
+    color: aqua;
+}
+
+a.pics {
+    color: aquamarine;
+}
