@@ -1,7 +1,13 @@
 <!DOCTYPE html>
+<script src="javascript1.js"></script>
+
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Contact Angela Preziuso</title>
     <a class="home" href="ppp.html" </a>Home</a> &nbsp; &nbsp;<a class="about" href="About.html" </a>About</a> &nbsp;&nbsp; <a class="pics" href="Pictures.html" </a>Pictures</a>
     <link href="style3.css" type="text/css" rel="stylesheet">
@@ -11,29 +17,37 @@
 <body>
 
     <h1>If you need to contact me</h1>
-    <div>
+    <div id="removeID" class="remove">
         <ul>
             <li>Phone: <a href="tel:+3023798629">(302) 379-8629</a></li>
             <li>Email: <a href="mailto: angelapreziuso23@gmail.com">angelapreziuso23@gmail.com</a></li>
         </ul>
     </div>
 
+    <div class="MyFormWrap">
+        <div class="formid">
+            <form id="formid" action="message.html">
+                <div class="inputthings">
+                    <div class="MyForm">
+                        <input id="namee" type="text" class="input" placeholder="Name">
+                        <label class="form" id="hello" style="color: pink; visibility: hidden;">Missing</label>
+                    </div>
+                    <div class="MyForm">
+                        <input id="email" type="text" class="input" placeholder="Email">
+                        <label class="form" id="please" style="color: pink; visibility: hidden;">Missing</label>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" cols="30" rows="10"></textarea>
+                        <button type="submit" id="submit" class="button">Send</button>
+                    </div>
+            </form>
 
-    <div id="Contact">
-        <form id="contact">
-            <label class="name" for="name">Your name:</label><br />
-            <input id="name" name="name" type="text" value="" size="30" /><br />
+            </div>
+        </div>
 
-            <label class="email" for="email">Your email:</label><br />
-            <input id="email" name="email" type="text" value="" size="30" /><br />
-
-            <label class="message" for="message">Your message:</label><br />
-            <textarea id="message" name="message" rows=3 cols=28></textarea><br />
-    </div>
-    <input class="sendbutton" for="sendbutton" id="submit" type="submit" value="Send" />
-    </form>
-    </div>
-
+        <div class="buttonStuff">
+            <button id="btn" class="buttonProps blue" type="click" onclick="changeColor()"> I Like Colors   PRESS ME</button>
+        </div>
 
 </body>
 
